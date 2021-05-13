@@ -6,7 +6,7 @@ JSONをNGSIに整形してmdgのFIWAREにPOSTするツールです。JSONとNGSI
 ### インストール
 `pip`コマンドでインストールできます。`pip3`であれば下記のように実行します。
 ```bash
-pip3 install -U git+https://github.com/mdg-nu/andromeda.git
+pip3 install -U git+https://github.com/mdg-nu/andromeda.git@takayama
 ```
 
 ### Get Started
@@ -14,7 +14,7 @@ Pythonスクリプトの冒頭に
 ```python
 import andoromeda
 ```
-と記述します。これでモジュール群が使えるようになります。使い方は`docs`の`Tutorial.md`をご覧ください。
+と記述します。これでモジュール群が使えるようになります。さらなる使い方は[チュートリアル](https://github.com/mdg-nu/andromeda/blob/takayama/docs/Tutorial.md)をご覧ください。
 
 ## トラブル・改善
 問題がございましたら`issue`にお願いします。
