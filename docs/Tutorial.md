@@ -22,7 +22,13 @@ m1.show_config()
 
 ## #3 `setting.yaml`の設定
 
-andoromedaを使うには，あらかじめ`setting.yaml`を適正に設定して，**andoromedaを呼び出すPythonスクリプトと同じ階層に設置**する必要があります。
+andoromedaを使うには，あらかじめ`setting.yaml`を適正に設定して，**andoromedaを呼び出すPythonスクリプトと同じ階層に設置**する必要があります。下記のようなディレクトリ構成にしてください。
+
+```
+.
+├── main.py
+└── setting.yaml
+```
 
 ### #3-1 設定例
 
