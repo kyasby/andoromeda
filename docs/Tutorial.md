@@ -5,7 +5,7 @@
 
 ## #1 モジュールのインポート
 ```python
-import andoromeda
+import andoromeda as ad
 ```
 
 ## #2 インスタンスの生成
